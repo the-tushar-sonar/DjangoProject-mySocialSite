@@ -1,0 +1,92 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+env/
+venv/
+ENV/
+.venv/
+
+# Django-specific
+*.log
+*.pot
+*.pyc
+db.sqlite3
+*.sqlite3
+media/
+staticfiles/
+static_root/
+local_settings.py
+
+# If you use WhiteNoise for static files
+/static/
+
+# Pytest
+.pytest_cache/
+
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+.cache
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store
+
+# Pipenv
+Pipfile.lock
+
+# Docker
+*.pid
+*.seed
+
+# Environment variables
+.env
+.env.*
+
+# Node (if using frontend tooling)
+node_modules/
+npm-debug.log*
+
+# IDEs
+.idea/
+*.swp
+# Ignore migrations
+mySocialSite/tweet/migrations/ 
+# Ignore compiled files
+mySocialSite/tweet/__pycache__/
+# Ignore local settings
+mySocialSite/tweet/local_settings.py
+# Ignore test files
+mySocialSite/tweet/tests.py
+# Ignore coverage files
+mySocialSite/tweet/.coverage
+# Ignore database files
+mySocialSite/tweet/db.sqlite3
+# Ignore log files
+mySocialSite/tweet/*.log
+# Ignore media files
+mySocialSite/tweet/media/
+# Ignore static files
+mySocialSite/tweet/static/
+# Ignore configuration files
+mySocialSite/tweet/config.json
+# Ignore cache files
+mySocialSite/tweet/cache/
+from django import forms
+from .models import Tweet
+# Ignore compiled Python files
+*.pyc  
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+# Ignore coverage reports
+.coverage
