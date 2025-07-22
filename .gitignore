@@ -76,6 +76,7 @@ mySocialSite/tweet/db.sqlite3
 mySocialSite/tweet/*.log
 # Ignore media files
 mySocialSite/tweet/media/
+mySocialSite/tweet/media/*
 # Ignore static files
 mySocialSite/tweet/static/
 # Ignore configuration files
